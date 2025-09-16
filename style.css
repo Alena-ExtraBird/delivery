@@ -120,15 +120,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
 }
 .products-header--title {
     color: #000;
     font-size: 36px;
     font-weight: 700;
-
-
+    margin: 0;
 }
  .products-header--search {
     min-width: 306px;
@@ -148,6 +145,16 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+}
+.products-wrapper {
+    margin-top: 44px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.products-cart {
+    width: calc((100% - 48px) / 3);
 
 }
 
@@ -160,10 +167,7 @@ body {
     .banner-item--subtitle {
         max-width: 100%;
 
-    }
-
-
-    
+    } 
 }
 
 
